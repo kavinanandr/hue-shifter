@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "./assets/logo.png";
 
 function App() {
   const [color, setColor] = useState("bg-lime-700");
@@ -9,7 +10,7 @@ function App() {
         <header className="p-4 justify-self-start flex">
           <figure>
             <img
-              src="src/assets/logo.png"
+              src={logo}
               alt="logo"
               width="256px"
               height="256px"
