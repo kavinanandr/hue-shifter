@@ -5,9 +5,9 @@ function App() {
     <>
       <div className="w-screen h-screen text-white bg-lime-700 flex flex-col">
         <header className="p-4 justify-self-start">
-          <h1 className="text-2xl">Hue Shifter</h1>
+          <h1 className="text-2xl font-bold md:text-3xl">Hue Shifter</h1>
         </header>
-        <main className="bg-white rounded-3xl p-4 m-4 my-auto self-center flex flex-wrap gap-2 justify-center">
+        <main className="bg-white rounded-3xl p-4 m-4 my-auto self-center flex flex-wrap gap-2 justify-evenly md:rounded-full lg:text-2xl">
           <button className="bg-red-500 rounded-full px-4 py-2 hover:brightness-150 hover:cursor-pointer">
             Red
           </button>
